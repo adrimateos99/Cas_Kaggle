@@ -49,3 +49,7 @@ Ja que el percentatge obtingut pel Regressor Lineal no és extremadament bó, no
 Certament podriem establir un rang de preus de -5500 a 5500 on el preu predit fos 0. D'aquesta manera podem considerar que el preu real es troba dins del rang de preus. Quant més petit sigui el rang de preus inicial (l'utilitzat pel Regressor Lineal es de 1000 a 60000), més precisió obtindrem alhora de predir el preu.
 
 Pel que fa a la Regressió Lineal on s'utilitzen dades de vehicles amb menys de 50 anys, no podem considerar tampoc per suficientment bons els resultats. El rang de preus passaria de ser d'10000 a 10600 sent una baixada mínima.
+
+
+### Coments
+*El dataset ocupa massa espai com per pujar-lo al github, motiu pel cual no he fet commits ja que tenia que esta eliminant el dataset per fer-lo i era mmolt engorrós. El codi te com a direccio del dataset: dataset/vehicles.csv*
