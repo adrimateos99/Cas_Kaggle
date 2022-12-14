@@ -23,7 +23,7 @@ En el cas dels atributs categorics 'condition', 'transmission', 'type', 'drive',
 ## Probes realitzades.
 S'han realitzat 2 tipus de regresions lineals i l'última s'ha validat mitjançant 'cross_validation' amb k = 5. La primera regressió s'ha fet unicament utilitzant els atributs de l'edat i el quilometratge. La segona s'ha realitzat mitjançant tots els atributs categòrics que s'han passat a numèrics, l'edat i el quilometratge.
 
-###Resultats
+### Resultats
 |--|R2score|Mean_absolute_error|Mean_square_error|
 |--|--|--|--|
 | Linear Regression 1 | 0.3384 | 7693.4659 | 99004700.2530 |
