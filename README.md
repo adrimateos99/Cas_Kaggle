@@ -26,9 +26,9 @@ S'han realitzat 2 tipus de regresions lineals i l'última s'ha validat mitjança
 ###Resultats
 |--|R2score|Mean_absolute_error|Mean_square_error|
 |--|--|--|--|
-| Linear Regression 1 | 0.3384 | 7693.4659 | 99004700.2530
-| Linear Regression 2 | 0.6108 | 5660.1417 | 58229190.1161
-| Cross Validation | 0.6081 | 5680.8522 | 58638024.0404
+| Linear Regression 1 | 0.3384 | 7693.4659 | 99004700.2530 |
+| Linear Regression 2 | 0.6108 | 5660.1417 | 58229190.1161 |
+| Cross Validation | 0.6081 | 5680.8522 | 58638024.0404 |
 
 Es pot observar que la segona Regressió Lineal, concretament la que disposa de tots el atributs obté millors resultats. També s'observa com la validació confirma els resultats obtinguts. El Regressor Lineal té un 60% d'encerts en el que a predir el preu es tracta.
 
@@ -37,9 +37,9 @@ Per tal d'evitar observar dades de vehicles historics on el preu augmenta segons
 ### Resultats
 |--|R2score|Mean_absolute_error|Mean_square_error|
 |--|--|--|--|
-| Linear Regression 1 | 0.3725 | 7506.6474 | 93529861.9580
-| Linear Regression 2 | 0.6487 | 5388.7116 | 52358286.0756
-| Cross Validation | 0.6462 | 5409.2036 | 52731503.8048
+| Linear Regression 1 | 0.3725 | 7506.6474 | 93529861.9580 |
+| Linear Regression 2 | 0.6487 | 5388.7116 | 52358286.0756 |
+| Cross Validation | 0.6462 | 5409.2036 | 52731503.8048 |
 
 S'bserva que el percentatge d'encerts ha augmentat fins al 65%.
 
@@ -48,7 +48,7 @@ Ja que el percentatge obtingut pel Regressor Lineal no és extremadament bó, no
 
 Certament podriem establir un rang de preus de -5500 a 5500 on el preu predit fos 0. D'aquesta manera podem considerar que el preu real es troba dins del rang de preus. Quant més petit sigui el rang de preus inicial (l'utilitzat pel Regressor Lineal es de 1000 a 60000), més precisió obtindrem alhora de predir el preu.
 
-Pel que fa a la Regressió Lineal on s'utilitzen dades de vehicles amb menys de 50 anys, no podem considerar tampoc per suficientment bons els resultats. El rang de preus passaria de ser d'10000 a 10600 sent una baixada mínima.
+Pel que fa a la Regressió Lineal on s'utilitzen dades de vehicles amb menys de 50 anys, no podem considerar tampoc per suficientment bons els resultats. El rang de preus passaria de ser d'11000 a 10600 sent una baixada mínima.
 
 
 ### Coments
